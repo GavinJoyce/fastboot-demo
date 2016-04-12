@@ -651,7 +651,7 @@ define("fastboot-demo/templates/github", ["exports"], function (exports) {
 /* jshint ignore:start */
 
 define('fastboot-demo/config/environment', ['ember'], function(Ember) {
-  return { 'default': {"modulePrefix":"fastboot-demo","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"fastboot-demo","version":"0.0.0+bce9c09a"},"something":"test","exportApplicationGlobal":true}};
+  return { 'default': {"modulePrefix":"fastboot-demo","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"fastboot-demo","version":"0.0.0+9ae34dcc"},"something":"test","exportApplicationGlobal":true}};
 });
 
 /* jshint ignore:end */
@@ -659,7 +659,7 @@ define('fastboot-demo/config/environment', ['ember'], function(Ember) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("fastboot-demo/app")["default"].create({"name":"fastboot-demo","version":"0.0.0+bce9c09a"});
+  require("fastboot-demo/app")["default"].create({"name":"fastboot-demo","version":"0.0.0+9ae34dcc"});
 }
 
 define('~fastboot/app-factory', ['fastboot-demo/app', 'fastboot-demo/config/environment'], function(App, config) {

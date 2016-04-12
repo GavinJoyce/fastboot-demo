@@ -660,7 +660,7 @@ define("fastboot-demo/templates/github", ["exports"], function (exports) {
 /* jshint ignore:start */
 
 define('fastboot-demo/config/environment', ['ember'], function(Ember) {
-  return { 'default': {"modulePrefix":"fastboot-demo","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"fastboot-demo","version":"0.0.0+bce9c09a","autoboot":false},"something":"test","exportApplicationGlobal":true}};
+  return { 'default': {"modulePrefix":"fastboot-demo","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"fastboot-demo","version":"0.0.0+9ae34dcc","autoboot":false},"something":"test","exportApplicationGlobal":true}};
 });
 
 /* jshint ignore:end */
