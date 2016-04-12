@@ -1,0 +1,15 @@
+<h2>Github</h2>
+
+<ul>
+  {{#each model as |organisation|}}
+    <li>
+      {{#link-to 'github.organisation' organisation.id}}
+        {{organisation.name}}
+      {{/link-to}}
+    </li>
+  {{/each}}
+</ul>
+
+<hr />
+
+{{outlet}}
